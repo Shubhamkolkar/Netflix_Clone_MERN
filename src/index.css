@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:"NetSan Bold" ;
+  src: url("./assets/NetflixSans-Bold.woff2");
+}
+@font-face {
+  font-family:"NetSan Reg" ;
+  src: url("./assets/NetflixSans-Regular.woff2");
+}
+@font-face {
+  font-family:"NetSan Light" ;
+  src: url("./assets/NetflixSans-Light.woff2");
+}
+@font-face {
+  font-family:"NetSan Mid" ;
+  src: url("./assets/NetflixSans-Medium.woff2");
+}
+
+body{
+  font-family: "NetSan Bold",sans-serif;
+  background: black;
+  color: white;
+}
+
